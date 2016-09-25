@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.16" />
+    <meta name="author" content="Henri Rebecq">
+    <meta name="description" content="PhD student">
+
+    <link rel="stylesheet" href="https://supitalp.github.io/research/css/highlight.min.css">
+    <link rel="stylesheet" href="https://supitalp.github.io/research/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://supitalp.github.io/research/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://supitalp.github.io/research/css/academicons.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="https://supitalp.github.io/research/css/hugo-academic.css">
+    
+
+    
+    <link rel="alternate" href="https://supitalp.github.io/research/index.xml" type="application/rss+xml" title="Henri Rebecq">
+    <link rel="feed" href="https://supitalp.github.io/research/index.xml" type="application/rss+xml" title="Henri Rebecq">
+    
+    <link rel="shortcut icon" href="https://supitalp.github.io/research/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://supitalp.github.io/research/">
+
+    <title>Henri Rebecq</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://supitalp.github.io/research/">Henri Rebecq</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://supitalp.github.io/research/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://supitalp.github.io/research/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://supitalp.github.io/research/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://supitalp.github.io/research/#teaching">Teaching</a></li>
+                
+                <li class="nav-item"><a href="https://supitalp.github.io/research/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+
+
+<section id="bio" class="home-section">
+    <div class="container">
+        <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <div class="col-xs-12 col-md-4">
+        <div id="profile">
+
+            <div class="portrait" itemprop="image" style="background-image: url('https://supitalp.github.io/research/img/portrait.jpg');"></div>
+
+            <div class="portrait-title">
+                <h2 itemprop="name">Henri Rebecq</h2>
+                <h3 itemprop="jobTitle">PhD student</h3>
+                <h3 itemprop="worksFor">Robotics and Perception Group, University of Zürich</h3>
+            </div>
+
+            <ul class="social-icon">
+                
+                <li>
+                    <a href="mailto:rebecq@ifi.uzh.ch">
+                    
+                        <i class="fa fa-envelope big-icon" aria-hidden="true"></i>
+                    
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://scholar.google.co.uk/citations?user=zveWLBkAAAAJ">
+                    
+                        <i class="ai ai-google-scholar big-icon" aria-hidden="true"></i>
+                    
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.linkedin.com/in/henri-rebecq-81bb9a97">
+                    
+                        <i class="fa fa-linkedin big-icon" aria-hidden="true"></i>
+                    
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="//github.com/supitalp">
+                    
+                        <i class="fa fa-github big-icon" aria-hidden="true"></i>
+                    
+                    </a>
+                </li>
+                
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="visible-sm visible-xs"></div>
+
+    <div class="col-xs-12 col-md-8" itemprop="description">
+
+        
+
+<h1 id="biography">Biography</h1>
+
+<p>I am a PhD student at the <a href="http://rpg.ifi.uzh.ch">Robotics and Perception Group</a> directed by <a href="http://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>, at University of Zürich.</p>
+
+<p>I am specifically interested in <strong>event-based vision</strong> &mdash; using event cameras, such as the <a href="http://inilabs.com/products/dynamic-vision-sensors/">Dynamic Vision Sensor (DVS)</a>.</p>
+
+<p>These cameras are novel, bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely:</p>
+
+<ul>
+<li>a very high dynamic range</li>
+<li>no motion blur</li>
+<li>a latency in the order of microseconds.</li>
+</ul>
+
+<p>However, because their output is composed of a sequence of <em>asynchronous events</em> rather than actual intensity images, traditional vision algorithms cannot be applied.</p>
+
+<p>The goal of my research is to design novel algorithms that leverage the outstanding properties of event cameras to solve fundamental vision tasks for robotics &mdash; in particular <strong>SLAM</strong>, <strong>visual odometry</strong> and <strong>mapping</strong> (3D reconstruction).</p>
+
+<p>In the past, I have been working on <a href="https://supitalp.github.io/research/publication/benefit-large-fov-vo/">omnidirectional vision</a>, and I have also worked as a research engineer at <a href="http://www.video-stitch.com/">VideoStitch</a>.</p>
+
+
+        <div class="row">
+
+            
+            <div class="col-sm-5">
+                <h3>Interests</h3>
+                <ul>
+                    
+                    <li>Event-based Vision</li>
+                    
+                    <li>SLAM</li>
+                    
+                    <li>Visual Odometry</li>
+                    
+                </ul>
+            </div>
+            
+
+            
+            <div class="col-sm-7">
+                <h3>Education</h3>
+                <ul class="ul-edu fa-ul">
+                    
+                    <li>
+                        <i class="fa-li fa fa-graduation-cap"></i>
+                        <div class="description">
+                            <p class="course">PhD student, 2015</p>
+                            <p class="institution">Robotics and Perception Group, University of Zürich</p>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-li fa fa-graduation-cap"></i>
+                        <div class="description">
+                            <p class="course">M.Sc. Mathematics, Vision and Learning, 2014</p>
+                            <p class="institution">Ecole Normale Supérieure de Cachan</p>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-li fa fa-graduation-cap"></i>
+                        <div class="description">
+                            <p class="course">M.Sc.Eng., 2014</p>
+                            <p class="institution">Télécom ParisTech</p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="publications" class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 section-heading">
+                <h1>Selected Publications</h1>
+                
+            </div>
+            <div class="col-xs-12 col-md-8">
+                
+                
+                <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="row">
+        
+        <div class="col-md-12">
+            <a href="https://supitalp.github.io/research/publication/emvs/">
+                <img src="https://supitalp.github.io/research/img/banners/emvs_banner.png" class="pub-banner" itemprop="image">
+            </a>
+        </div>
+        <div class="col-md-12">
+        
+
+            <h3 class="article-title" itemprop="name">
+                <a href="https://supitalp.github.io/research/publication/emvs/" itemprop="url">EMVS: Event-based Multi-View Stereo</a>
+            </h3>
+
+            <div class="pub-abstract" itemprop="text">
+                
+                    In this paper, we introduce the problem of Event-based Multi-View Stereo (EMVS) for event cameras and propose a solution to it. Unlike traditional MVS methods, which address the problem of estimating dense 3D structure from a set of known viewpoints, EMVS estimates semi-dense 3D structure from an event camera with known trajectory. Our algorithm is able to produce accurate, semi-dense depth maps and is computationally very efficient (runs in real-time on a CPU or even a smartphone processor).
+                
+            </div>
+
+            <div class="pub-authors" itemprop="author">
+                
+                Henri Rebecq, Guillermo Gallego, Davide Scaramuzza
+                
+            </div>
+
+            <div class="pub-publication">
+                
+                    In <em>BMVC&rsquo;16</em>
+                
+            </div>
+
+            <div class="pub-links">
+                
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/emvs/">Details</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/BMVC16_Rebecq.pdf">PDF</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=EUX3Tfx0KKE">Video</a>
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                
+                <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="row">
+        
+        <div class="col-md-12">
+            <a href="https://supitalp.github.io/research/publication/eb_6dof_tracking/">
+                <img src="https://supitalp.github.io/research/img/banners/posetracking_banner.png" class="pub-banner" itemprop="image">
+            </a>
+        </div>
+        <div class="col-md-12">
+        
+
+            <h3 class="article-title" itemprop="name">
+                <a href="https://supitalp.github.io/research/publication/eb_6dof_tracking/" itemprop="url">Event-based, 6-DOF Camera Tracking for High-Speed Applications</a>
+            </h3>
+
+            <div class="pub-abstract" itemprop="text">
+                
+                    In contrast to standard cameras, which produce frames at a fixed rate, event cameras respond asynchronously to pixel-level brightness changes, thus enabling the design of new algorithms for high-speed applications with latencies of microseconds. However, this advantage comes at a cost: because the output is composed by a sequence of events, traditional computer-vision algorithms are not applicable, so that a new paradigm shift is needed. We present an event-based approach for ego-motion estimation, which provides pose updates upon the arrival of each event, thus virtually eliminating latency. Our method is the first work addressing and demonstrating event-based pose tracking in six degrees-of-freedom (DOF) motions in realistic and natural scenes, and it is able to track high-speed motions. The method is successfully evaluated in both indoor and outdoor scenes.
+                
+            </div>
+
+            <div class="pub-authors" itemprop="author">
+                
+                Guillermo Gallego, Jon E.A. Lund, Elias Mueggler, Henri Rebecq, Tobi Delbruck, Davide Scaramuzza
+                
+            </div>
+
+            <div class="pub-publication">
+                
+                    In <em>arXiv&rsquo;16</em>
+                
+            </div>
+
+            <div class="pub-links">
+                
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/eb_6dof_tracking/">Details</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/Arxiv16_Gallego.pdf">PDF</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=iZZ77F-hwzs">Video</a>
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                
+                <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="row">
+        
+        <div class="col-md-12">
+            <a href="https://supitalp.github.io/research/publication/benefit-large-fov-vo/">
+                <img src="https://supitalp.github.io/research/img/banners/benefit_fov_vo_banner.png" class="pub-banner" itemprop="image">
+            </a>
+        </div>
+        <div class="col-md-12">
+        
+
+            <h3 class="article-title" itemprop="name">
+                <a href="https://supitalp.github.io/research/publication/benefit-large-fov-vo/" itemprop="url">Benefit of Large Field-of-View Cameras for Visual Odometry</a>
+            </h3>
+
+            <div class="pub-abstract" itemprop="text">
+                
+                    The transition of visual-odometry technology from research demonstrators to commercial applications naturally raises the question: &#34;what is the optimal camera for vision-based motion estimation?&#34; This question is crucial as the choice of camera has a tremendous impact on the robustness and accuracy of the employed visual odometry algorithm. While many properties of a camera (e.g. resolution, frame-rate, global-shutter/rolling-shutter) could be considered, in this work we focus on evaluating the impact of the camera field-of-view (FoV) and optics (i.e., fisheye or catadioptric) on the quality of the motion estimate. Since the motion-estimation performance depends highly on the geometry of the scene and the motion of the camera, we analyze two common operational environments in mobile robotics: an urban environment and an indoor scene.
+                
+            </div>
+
+            <div class="pub-authors" itemprop="author">
+                
+                Zichao Zhang, Henri Rebecq, Christian Forster, Davide Scaramuzza
+                
+            </div>
+
+            <div class="pub-publication">
+                
+                    In <em>ICRA&rsquo;16</em>
+                
+            </div>
+
+            <div class="pub-links">
+                
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/benefit-large-fov-vo/">Details</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/ICRA16_Zhang.pdf">PDF</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/6KXBoprGaR0">Video</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/fov.html">Research page</a>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 section-heading">
+                <h1>Recent Publications</h1>
+                
+                
+            </div>
+            <div class="col-xs-12 col-md-8">
+                
+                <ul class="fa-ul">
+                    
+                    <li itemscope itemtype="http://schema.org/CreativeWork">
+    <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+    <span itemprop="name">EMVS: Event-based Multi-View Stereo</span>
+    <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/emvs/">Details</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/BMVC16_Rebecq.pdf">PDF</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=EUX3Tfx0KKE">Video</a>
+
+
+
+
+
+</p>
+</li>
+
+                    
+                    <li itemscope itemtype="http://schema.org/CreativeWork">
+    <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+    <span itemprop="name">Event-based, 6-DOF Camera Tracking for High-Speed Applications</span>
+    <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/eb_6dof_tracking/">Details</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/Arxiv16_Gallego.pdf">PDF</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=iZZ77F-hwzs">Video</a>
+
+
+
+
+
+</p>
+</li>
+
+                    
+                    <li itemscope itemtype="http://schema.org/CreativeWork">
+    <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+    <span itemprop="name">Benefit of Large Field-of-View Cameras for Visual Odometry</span>
+    <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/benefit-large-fov-vo/">Details</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/ICRA16_Zhang.pdf">PDF</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/6KXBoprGaR0">Video</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/fov.html">Research page</a>
+
+</p>
+</li>
+
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section id="posts" class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 section-heading">
+                <h1>Recent Posts</h1>
+                
+                
+            </div>
+            <div class="col-xs-12 col-md-8">
+                
+                <div class="article-list-item" itemscope itemprop="blogPost">
+                    
+                    <h3 class="article-title" itemprop="name"><a href="https://supitalp.github.io/research/post/emvs_award/" itemprop="url">Best BMVC&#39;16 Industry Paper Award!</a></h3>
+                    
+
+<div class="article-metadata">
+
+    <span class="article-date">
+        <time datetime="2016-09-22 12:00:00 &#43;0000 UTC" itemprop="datePublished">Thu, Sep 22, 2016</time>
+    </span>
+
+    
+    
+    
+    
+
+    
+
+</div>
+
+                    <p class="article-style" itemprop="articleBody">
+                        
+                            <p>Our paper <a href="https://supitalp.github.io/research/publication/emvs/">EMVS: Event-based Multi-View Stereo</a>, receives the BMVC&rsquo;16 Best Industry Paper Award!</p>
+
+<p><img src="/img/news/BMVCaward.jpg" alt="BMVC Best industry paper award" style="width: 400px;"/></p>
+
+                        
+                    </p>
+                    <p class="read-more">
+                        <a href="https://supitalp.github.io/research/post/emvs_award/" class="btn btn-primary btn-outline">
+                            Read more
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="article-list-item" itemscope itemprop="blogPost">
+                    
+                    <h3 class="article-title" itemprop="name"><a href="https://supitalp.github.io/research/post/new-paper-emvs/" itemprop="url">New paper accepted at BMVC16!</a></h3>
+                    
+
+<div class="article-metadata">
+
+    <span class="article-date">
+        <time datetime="2016-07-15 12:00:00 &#43;0000 UTC" itemprop="datePublished">Fri, Jul 15, 2016</time>
+    </span>
+
+    
+    
+    
+    <span class="article-tags">
+        <i class="fa fa-tags"></i>
+        
+        <a class="article-tag-link" href="https://supitalp.github.io/research/tags/multi-view-stereo">multi-view stereo</a>, 
+        
+        <a class="article-tag-link" href="https://supitalp.github.io/research/tags/event-based-vision">event-based vision</a>, 
+        
+        <a class="article-tag-link" href="https://supitalp.github.io/research/tags/3d-reconstruction">3d reconstruction</a>
+        
+    </span>
+    
+    
+
+    
+
+</div>
+
+                    <p class="article-style" itemprop="articleBody">
+                        
+                            <p>Our paper <a href="https://supitalp.github.io/research/publication/emvs/">EMVS: Event-based Multi-View Stereo</a> about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&rsquo;16!</p>
+
+                        
+                    </p>
+                    <p class="read-more">
+                        <a href="https://supitalp.github.io/research/post/new-paper-emvs/" class="btn btn-primary btn-outline">
+                            Read more
+                        </a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="teaching" class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 section-heading">
+                <h1>Teaching</h1>
+                
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <p>I am a teaching assistant for the course <a href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheitPre.do?semkez=2016W&amp;lang=en&amp;ansicht=ALLE&amp;lerneinheitId=110044">Vision Algorithms for Mobile Robotics</a> given at ETH Zürich during the Fall Semester 2016.</p>
+
+<p>I also occasionally supervise student projects. The list of projects currently available can be found <a href="http://rpg.ifi.uzh.ch/student_projects.php">here</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section id="contact" class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 section-heading">
+                <h1>Contact</h1>
+                
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <ul class="list-unstyled">
+
+    
+    <li>
+        <i class="fa fa-phone fa-fw" aria-hidden="true"></i>
+        
+        <span><a href="tel:&#43;41%2044%20635%2045%2075">&#43;41 44 635 45 75</a></span>
+        
+    </li>
+    
+
+    
+    <li>
+        <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+        
+        <span><a href="mailto:rebecq@ifi.uzh.ch">rebecq@ifi.uzh.ch</a></span>
+        
+    </li>
+    
+
+    
+    <li>
+        <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+        <span>Robotics and Perception Group, Andreasstrasse 15, 8052 Zürich, Switzerland.</span>
+    </li>
+    
+
+</ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Henri Rebecq &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://supitalp.github.io/research/js/jquery-1.12.3.min.js"></script>
+        <script src="https://supitalp.github.io/research/js/bootstrap.min.js"></script>
+        <script src="https://supitalp.github.io/research/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+
+    </body>
+</html>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Henri Rebecq</title>
+    <link>https://supitalp.github.io/research/publication/</link>
+    <description>Recent content in Publications on Henri Rebecq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
+    <lastBuildDate>Tue, 20 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://supitalp.github.io/research/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EMVS: Event-based Multi-View Stereo</title>
+      <link>https://supitalp.github.io/research/publication/emvs/</link>
+      <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/emvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based, 6-DOF Camera Tracking for High-Speed Applications</title>
+      <link>https://supitalp.github.io/research/publication/eb_6dof_tracking/</link>
+      <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/eb_6dof_tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benefit of Large Field-of-View Cameras for Visual Odometry</title>
+      <link>https://supitalp.github.io/research/publication/benefit-large-fov-vo/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/benefit-large-fov-vo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

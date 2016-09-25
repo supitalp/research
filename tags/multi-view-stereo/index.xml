@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi View Stereo on Henri Rebecq</title>
+    <link>https://supitalp.github.io/research/tags/multi-view-stereo/</link>
+    <description>Recent content in Multi View Stereo on Henri Rebecq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
+    <lastBuildDate>Fri, 15 Jul 2016 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://supitalp.github.io/research/tags/multi-view-stereo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New paper accepted at BMVC16!</title>
+      <link>https://supitalp.github.io/research/post/new-paper-emvs/</link>
+      <pubDate>Fri, 15 Jul 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/new-paper-emvs/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt; about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&amp;rsquo;16!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
