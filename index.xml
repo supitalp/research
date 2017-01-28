@@ -7,8 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
-    <lastBuildDate>Thu, 22 Sep 2016 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jan 2017 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://supitalp.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New paper accepted at RA-L and ICRA!</title>
+      <link>https://supitalp.github.io/research/post/new-paper-evo/</link>
+      <pubDate>Sun, 15 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/new-paper-evo/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/evo/&#34;&gt;EVO: A Geometric Approach to Event-based
+6-DOF Parallel Tracking and Mapping in Real-time&lt;/a&gt; has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&amp;rsquo;17!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EVO: A Geometric Approach to Event-based 6-DOF Parallel Tracking and Mapping in Real-time</title>
+      <link>https://supitalp.github.io/research/publication/evo/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/evo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Event-Camera Dataset and Simulator: Event-based Data for Pose Estimation, Visual Odometry, and SLAM</title>
+      <link>https://supitalp.github.io/research/publication/dvs_data_paper/</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/dvs_data_paper/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Best BMVC&#39;16 Industry Paper Award!</title>

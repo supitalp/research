@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Event Based Vision on Henri Rebecq</title>
-    <link>https://supitalp.github.io/research/tags/event-based-vision/</link>
-    <description>Recent content in Event Based Vision on Henri Rebecq</description>
+    <title>Slam on Henri Rebecq</title>
+    <link>https://supitalp.github.io/research/tags/slam/</link>
+    <description>Recent content in Slam on Henri Rebecq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
     <lastBuildDate>Sun, 15 Jan 2017 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://supitalp.github.io/research/tags/event-based-vision/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://supitalp.github.io/research/tags/slam/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New paper accepted at RA-L and ICRA!</title>
@@ -18,16 +18,6 @@
       <guid>https://supitalp.github.io/research/post/new-paper-evo/</guid>
       <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/evo/&#34;&gt;EVO: A Geometric Approach to Event-based
 6-DOF Parallel Tracking and Mapping in Real-time&lt;/a&gt; has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&amp;rsquo;17!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New paper accepted at BMVC16!</title>
-      <link>https://supitalp.github.io/research/post/new-paper-emvs/</link>
-      <pubDate>Fri, 15 Jul 2016 12:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/new-paper-emvs/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt; about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&amp;rsquo;16!&lt;/p&gt;
 </description>
     </item>
     
