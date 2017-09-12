@@ -1,59 +1,220 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://supitalp.github.io/research/</loc>
-    <lastmod>2017-01-15T12:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/post/new-paper-zevio/</loc>
+      <lastmod>2017-09-12T10:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/post/new-paper-evo/</loc>
-    <lastmod>2017-01-15T12:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/zevio/</loc>
+      <lastmod>2017-09-02T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/publication/evo/</loc>
-    <lastmod>2017-01-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/post/new-paper-evo/</loc>
+      <lastmod>2017-01-15T12:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/publication/dvs_data_paper/</loc>
-    <lastmod>2016-10-26T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/evo/</loc>
+      <lastmod>2017-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/post/emvs_award/</loc>
-    <lastmod>2016-09-22T12:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/dvs_data_paper/</loc>
+      <lastmod>2016-10-26T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/publication/emvs/</loc>
-    <lastmod>2016-09-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/post/emvs_award/</loc>
+      <lastmod>2016-09-22T12:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/post/new-paper-emvs/</loc>
-    <lastmod>2016-07-15T12:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/emvs/</loc>
+      <lastmod>2016-09-20T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/publication/eb_6dof_tracking/</loc>
-    <lastmod>2016-07-12T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/post/new-paper-emvs/</loc>
+      <lastmod>2016-07-15T12:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/publication/benefit-large-fov-vo/</loc>
-    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/eb_6dof_tracking/</loc>
+      <lastmod>2016-07-12T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/benefit-large-fov-vo/</loc>
+      <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://supitalp.github.io/research/home/teaching/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/post/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/3d-reconstruction/</loc>
+      <lastmod>2016-07-15T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/event-based-vision/</loc>
+      <lastmod>2017-09-12T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/multi-view-stereo/</loc>
+      <lastmod>2016-07-15T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/real-time/</loc>
+      <lastmod>2017-09-12T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/slam/</loc>
+      <lastmod>2017-01-15T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/</loc>
+      <lastmod>2016-07-15T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/visual-inertial-odometry/</loc>
+      <lastmod>2017-09-12T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://supitalp.github.io/research/tags/visual-odometry/</loc>
+      <lastmod>2017-01-15T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

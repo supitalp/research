@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Inertial Odometry on Henri Rebecq</title>
+    <link>https://supitalp.github.io/research/tags/visual-inertial-odometry/</link>
+    <description>Recent content in Visual Inertial Odometry on Henri Rebecq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
+    <lastBuildDate>Tue, 12 Sep 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="/research/tags/visual-inertial-odometry/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New paper accepted at BMVC17!</title>
+      <link>https://supitalp.github.io/research/post/new-paper-zevio/</link>
+      <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/new-paper-zevio/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/zevio/&#34; target=&#34;_blank&#34;&gt;Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization&lt;/a&gt; about visual-inertial odometry using an event camera has been accepted at BMVC&amp;rsquo;17 for oral presentation (acceptance rate: 5.6 %)!&lt;/p&gt;
+
+&lt;p&gt;You can watch the video &lt;a href=&#34;https://youtu.be/F3OFzsaPtvI&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
