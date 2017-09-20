@@ -20,9 +20,18 @@
     </item>
     
     <item>
+      <title>Drone</title>
+      <link>https://supitalp.github.io/research/tags/drone/</link>
+      <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/tags/drone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Event Based Vision</title>
       <link>https://supitalp.github.io/research/tags/event-based-vision/</link>
-      <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/tags/event-based-vision/</guid>
       <description></description>
@@ -34,6 +43,15 @@
       <pubDate>Fri, 15 Jul 2016 12:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/tags/multi-view-stereo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quadrotor</title>
+      <link>https://supitalp.github.io/research/tags/quadrotor/</link>
+      <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/tags/quadrotor/</guid>
       <description></description>
     </item>
     
@@ -58,7 +76,7 @@
     <item>
       <title>Visual Inertial Odometry</title>
       <link>https://supitalp.github.io/research/tags/visual-inertial-odometry/</link>
-      <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/tags/visual-inertial-odometry/</guid>
       <description></description>

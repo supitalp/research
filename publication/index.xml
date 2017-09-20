@@ -11,6 +11,15 @@
     <atom:link href="/research/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors</title>
+      <link>https://supitalp.github.io/research/publication/hybrid_evio_event_flight/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/hybrid_evio_event_flight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization</title>
       <link>https://supitalp.github.io/research/publication/zevio/</link>
       <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>

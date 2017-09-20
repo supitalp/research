@@ -11,6 +11,22 @@
     <atom:link href="/research/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>First ever closed-loop autonomous flight with an event camera!</title>
+      <link>https://supitalp.github.io/research/post/hybrid-evio-event-flight/</link>
+      <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/hybrid-evio-event-flight/</guid>
+      <description>&lt;p&gt;I am happy to announce today that my team achieved the first ever closed-loop autonomous flight using an event camera for state estimation! Watch the video &lt;a href=&#34;https://youtu.be/jIvJuWdmemE&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;This achievement is the product of several years of research, and I am very proud of the result. Thanks to the event camera, out quadrotor can &amp;ldquo;see&amp;rdquo; in high-speed, even in dark environments.&lt;/p&gt;
+
+&lt;p&gt;The algorithm running onboard the quadrotor is largely based on my recent paper: &lt;a href=&#34;https://supitalp.github.io/research/publication/zevio/&#34; target=&#34;_blank&#34;&gt;Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization&lt;/a&gt;, which we extended to use standard frames as an additional sensing modality in a following paper: &lt;a href=&#34;https://supitalp.github.io/research/publication/hybrid_evio_event_flight/&#34; target=&#34;_blank&#34;&gt;Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors&lt;/a&gt;. The resulting pipeline is able to work as well as state of the art visual-inertial odometry pipelines in normal conditions (good lighting, motions with moderate-speed) by exploiting the standard images, and can seamlessly use the event camera in more challenging situations (dark / HDR scenes, high-speed motions).&lt;/p&gt;
+
+&lt;p&gt;Expect to see more soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New paper accepted at BMVC17!</title>
       <link>https://supitalp.github.io/research/post/new-paper-zevio/</link>
       <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate>
