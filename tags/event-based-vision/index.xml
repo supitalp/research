@@ -7,8 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
-    <lastBuildDate>Wed, 20 Sep 2017 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Nov 2017 10:00:00 +0000</lastBuildDate>
     <atom:link href="/research/tags/event-based-vision/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My paper on Event-based Multi-View Stereo accepted at IJCV!</title>
+      <link>https://supitalp.github.io/research/post/new-paper-ijcv17/</link>
+      <pubDate>Thu, 09 Nov 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/new-paper-ijcv17/</guid>
+      <description>&lt;p&gt;My paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs_ijcv/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time&lt;/a&gt; about semi-dense 3D reconstruction with an event camera has been accepted to the &lt;em&gt;International Journal of Computer Vision&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;This work is the first to show that event cameras can be used to provide accurate, semi-dense 3D maps of a given environment, without explicitly trying to solve data association. You can watch the video &lt;a href=&#34;https://youtu.be/EFpZcpd9XJ0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>First ever closed-loop autonomous flight with an event camera!</title>
