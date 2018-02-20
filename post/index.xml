@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/research/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://supitalp.github.io/research/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>My paper on Event-based Multi-View Stereo accepted at IJCV!</title>
@@ -16,10 +18,8 @@
       <pubDate>Thu, 09 Nov 2017 10:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/new-paper-ijcv17/</guid>
-      <description>&lt;p&gt;My paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs_ijcv/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time&lt;/a&gt; about semi-dense 3D reconstruction with an event camera has been accepted to the &lt;em&gt;International Journal of Computer Vision&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;This work is the first to show that event cameras can be used to provide accurate, semi-dense 3D maps of a given environment, without explicitly trying to solve data association. You can watch the video &lt;a href=&#34;https://youtu.be/EFpZcpd9XJ0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-</description>
+      <description>My paper EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time about semi-dense 3D reconstruction with an event camera has been accepted to the International Journal of Computer Vision!
+This work is the first to show that event cameras can be used to provide accurate, semi-dense 3D maps of a given environment, without explicitly trying to solve data association. You can watch the video here!</description>
     </item>
     
     <item>
@@ -28,14 +28,9 @@
       <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/hybrid-evio-event-flight/</guid>
-      <description>&lt;p&gt;I am happy to announce today that my team achieved the first ever closed-loop autonomous flight using an event camera for state estimation! Watch the video &lt;a href=&#34;https://youtu.be/jIvJuWdmemE&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;This achievement is the product of several years of research, and I am very proud of the result. Thanks to the event camera, out quadrotor can &amp;ldquo;see&amp;rdquo; in high-speed, even in dark environments.&lt;/p&gt;
-
-&lt;p&gt;The algorithm running onboard the quadrotor is largely based on my recent paper: &lt;a href=&#34;https://supitalp.github.io/research/publication/zevio/&#34; target=&#34;_blank&#34;&gt;Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization&lt;/a&gt;, which we extended to use standard frames as an additional sensing modality in a following paper: &lt;a href=&#34;https://supitalp.github.io/research/publication/hybrid_evio_event_flight/&#34; target=&#34;_blank&#34;&gt;Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors&lt;/a&gt;. The resulting pipeline is able to work as well as state of the art visual-inertial odometry pipelines in normal conditions (good lighting, motions with moderate-speed) by exploiting the standard images, and can seamlessly use the event camera in more challenging situations (dark / HDR scenes, high-speed motions).&lt;/p&gt;
-
-&lt;p&gt;Expect to see more soon!&lt;/p&gt;
-</description>
+      <description>I am happy to announce today that my team achieved the first ever closed-loop autonomous flight using an event camera for state estimation! Watch the video here!
+This achievement is the product of several years of research, and I am very proud of the result. Thanks to the event camera, out quadrotor can &amp;ldquo;see&amp;rdquo; in high-speed, even in dark environments.
+The algorithm running onboard the quadrotor is largely based on my recent paper: Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization, which we extended to use standard frames as an additional sensing modality in a following paper: Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors.</description>
     </item>
     
     <item>
@@ -44,10 +39,8 @@
       <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/new-paper-zevio/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/zevio/&#34; target=&#34;_blank&#34;&gt;Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization&lt;/a&gt; about visual-inertial odometry using an event camera has been accepted at BMVC&amp;rsquo;17 for oral presentation (acceptance rate: 5.6 %)!&lt;/p&gt;
-
-&lt;p&gt;You can watch the video &lt;a href=&#34;https://youtu.be/F3OFzsaPtvI&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-</description>
+      <description>Our paper Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization about visual-inertial odometry using an event camera has been accepted at BMVC&amp;rsquo;17 for oral presentation (acceptance rate: 5.6 %)!
+You can watch the video here!</description>
     </item>
     
     <item>
@@ -56,9 +49,7 @@
       <pubDate>Sun, 15 Jan 2017 12:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/new-paper-evo/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/evo/&#34; target=&#34;_blank&#34;&gt;EVO: A Geometric Approach to Event-based
-6-DOF Parallel Tracking and Mapping in Real-time&lt;/a&gt; has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&amp;rsquo;17!&lt;/p&gt;
-</description>
+      <description>Our paper EVO: A Geometric Approach to Event-based 6-DOF Parallel Tracking and Mapping in Real-time has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&amp;rsquo;17!</description>
     </item>
     
     <item>
@@ -67,10 +58,7 @@
       <pubDate>Thu, 22 Sep 2016 12:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/emvs_award/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt;, receives the BMVC&amp;rsquo;16 Best Industry Paper Award!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/news/BMVCaward.jpg&#34; alt=&#34;BMVC Best industry paper award&#34; style=&#34;width: 400px;&#34;/&gt;&lt;/p&gt;
-</description>
+      <description>Our paper EMVS: Event-based Multi-View Stereo, receives the BMVC&amp;rsquo;16 Best Industry Paper Award!</description>
     </item>
     
     <item>
@@ -79,8 +67,7 @@
       <pubDate>Fri, 15 Jul 2016 12:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/new-paper-emvs/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt; about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&amp;rsquo;16!&lt;/p&gt;
-</description>
+      <description>Our paper EMVS: Event-based Multi-View Stereo about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&amp;rsquo;16!</description>
     </item>
     
   </channel>

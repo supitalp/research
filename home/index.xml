@@ -8,7 +8,67 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/research/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://supitalp.github.io/research/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://supitalp.github.io/research/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/home/about/</guid>
+      <description>Biography I am a PhD student at the Robotics and Perception Group directed by Davide Scaramuzza, at University of Zürich.
+I am specifically interested in event-based vision &amp;mdash; using event cameras, such as the Dynamic Vision Sensor (DVS).
+These cameras are novel, bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely:
+ a very high dynamic range no motion blur a latency in the order of microseconds.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://supitalp.github.io/research/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://supitalp.github.io/research/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://supitalp.github.io/research/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://supitalp.github.io/research/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/home/teaching/</guid>
+      <description>I am a teaching assistant for the course Vision Algorithms for Mobile Robotics given at ETH Zürich.
+I also occasionally supervise student projects. The list of projects currently available can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://supitalp.github.io/research/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
