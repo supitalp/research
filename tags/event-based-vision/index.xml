@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
-    <lastBuildDate>Thu, 09 Nov 2017 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Apr 2018 08:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://supitalp.github.io/research/tags/event-based-vision/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New paper accepted at CVPR&#39;18!</title>
+      <link>https://supitalp.github.io/research/post/new-paper-cvpr18/</link>
+      <pubDate>Wed, 18 Apr 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/new-paper-cvpr18/</guid>
+      <description>Our paper A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation (together with Guillermo Gallego and Davide Scaramuzza) was accepeted for spotlight presentation at CVPR&amp;rsquo;18!</description>
+    </item>
     
     <item>
       <title>My paper on Event-based Multi-View Stereo accepted at IJCV!</title>

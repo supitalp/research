@@ -11,6 +11,25 @@
     <atom:link href="/research/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>New paper accepted at CVPR&#39;18!</title>
+      <link>https://supitalp.github.io/research/post/new-paper-cvpr18/</link>
+      <pubDate>Wed, 18 Apr 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/post/new-paper-cvpr18/</guid>
+      <description>&lt;p&gt;Our paper  &lt;a href=&#34;https://supitalp.github.io/research/publication/contrast_max_cvpr/&#34; target=&#34;_blank&#34;&gt;A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation&lt;/a&gt; (together with Guillermo Gallego and Davide Scaramuzza) was accepeted for &lt;em&gt;spotlight presentation&lt;/em&gt; at CVPR&amp;rsquo;18!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation</title>
+      <link>https://supitalp.github.io/research/publication/contrast_max_cvpr/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/contrast_max_cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>My paper on Event-based Multi-View Stereo accepted at IJCV!</title>
       <link>https://supitalp.github.io/research/post/new-paper-ijcv17/</link>
       <pubDate>Thu, 09 Nov 2017 10:00:00 +0000</pubDate>
@@ -144,15 +163,6 @@
       <guid>https://supitalp.github.io/research/post/new-paper-emvs/</guid>
       <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt; about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&amp;rsquo;16!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Benefit of Large Field-of-View Cameras for Visual Odometry</title>
-      <link>https://supitalp.github.io/research/publication/benefit-large-fov-vo/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/publication/benefit-large-fov-vo/</guid>
-      <description></description>
     </item>
     
   </channel>
