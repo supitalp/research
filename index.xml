@@ -11,12 +11,57 @@
     <atom:link href="/research/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Are We Ready for Autonomous Drone Racing? The UZH-FPV Drone Racing Dataset</title>
+      <link>https://supitalp.github.io/research/publication/fpv_icra19/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/fpv_icra19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based, Direct Camera Tracking from a Photometric 3D Map using Nonlinear Optimization</title>
+      <link>https://supitalp.github.io/research/publication/photometric_tracking_icra19/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/photometric_tracking_icra19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESIM: an Open Event Camera Simulator</title>
+      <link>https://supitalp.github.io/research/publication/esim_corl18/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/esim_corl18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asynchronous, Photometric Feature Tracking using Events and Frames</title>
+      <link>https://supitalp.github.io/research/publication/malk_eccv18/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/malk_eccv18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Dense 3D Reconstruction with a Stereo Event Camera</title>
+      <link>https://supitalp.github.io/research/publication/stereo_eccv18/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/stereo_eccv18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>New paper accepted at CVPR&#39;18!</title>
       <link>https://supitalp.github.io/research/post/new-paper-cvpr18/</link>
       <pubDate>Wed, 18 Apr 2018 08:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/post/new-paper-cvpr18/</guid>
-      <description>&lt;p&gt;Our paper  &lt;a href=&#34;https://supitalp.github.io/research/publication/contrast_max_cvpr/&#34; target=&#34;_blank&#34;&gt;A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation&lt;/a&gt; (together with Guillermo Gallego and Davide Scaramuzza) was accepeted for &lt;em&gt;spotlight presentation&lt;/em&gt; at CVPR&amp;rsquo;18!&lt;/p&gt;
+      <description>&lt;p&gt;Our paper  &lt;a href=&#34;https://supitalp.github.io/research/publication/contrast_max_cvpr/&#34; target=&#34;_blank&#34;&gt;A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation&lt;/a&gt; (together with Guillermo Gallego and Davide Scaramuzza) was accepted for &lt;em&gt;spotlight presentation&lt;/em&gt; at CVPR&amp;rsquo;18!&lt;/p&gt;
 </description>
     </item>
     
@@ -113,55 +158,6 @@
       <guid>https://supitalp.github.io/research/post/new-paper-evo/</guid>
       <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/evo/&#34; target=&#34;_blank&#34;&gt;EVO: A Geometric Approach to Event-based
 6-DOF Parallel Tracking and Mapping in Real-time&lt;/a&gt; has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&amp;rsquo;17!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>EVO: A Geometric Approach to Event-based 6-DOF Parallel Tracking and Mapping in Real-time</title>
-      <link>https://supitalp.github.io/research/publication/evo/</link>
-      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/publication/evo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Event-Camera Dataset and Simulator: Event-based Data for Pose Estimation, Visual Odometry, and SLAM</title>
-      <link>https://supitalp.github.io/research/publication/dvs_data_paper/</link>
-      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/publication/dvs_data_paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Best BMVC&#39;16 Industry Paper Award!</title>
-      <link>https://supitalp.github.io/research/post/emvs_award/</link>
-      <pubDate>Thu, 22 Sep 2016 12:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/emvs_award/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt;, receives the BMVC&amp;rsquo;16 Best Industry Paper Award!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/news/BMVCaward.jpg&#34; alt=&#34;BMVC Best industry paper award&#34; style=&#34;width: 400px;&#34;/&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>EMVS: Event-based Multi-View Stereo</title>
-      <link>https://supitalp.github.io/research/publication/emvs/</link>
-      <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/publication/emvs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New paper accepted at BMVC16!</title>
-      <link>https://supitalp.github.io/research/post/new-paper-emvs/</link>
-      <pubDate>Fri, 15 Jul 2016 12:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/new-paper-emvs/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-based Multi-View Stereo&lt;/a&gt; about monocular 3D reconstruction using an event camera has been accepted for oral presentation at BMVC&amp;rsquo;16!&lt;/p&gt;
 </description>
     </item>
     
