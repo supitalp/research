@@ -6,11 +6,38 @@
     <description>Recent content in Publications on Henri Rebecq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
+    <copyright>&amp;copy; 2019 Henri Rebecq</copyright>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://supitalp.github.io/research/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>High Speed and High Dynamic Range Video with an Event Camera</title>
+      <link>https://supitalp.github.io/research/publication/e2vid_pami/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/e2vid_pami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CED: Color Event Camera Dataset</title>
+      <link>https://supitalp.github.io/research/publication/ced_cvprw/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/ced_cvprw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events-to-Video: Bringing Modern Computer Vision to Event Cameras</title>
+      <link>https://supitalp.github.io/research/publication/e2vid_cvpr/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/e2vid_cvpr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Are We Ready for Autonomous Drone Racing? The UZH-FPV Drone Racing Dataset</title>
@@ -85,20 +112,20 @@
     </item>
     
     <item>
-      <title>Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors</title>
-      <link>https://supitalp.github.io/research/publication/hybrid_evio_event_flight/</link>
-      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/publication/hybrid_evio_event_flight/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization</title>
       <link>https://supitalp.github.io/research/publication/zevio/</link>
       <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/publication/zevio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultimate SLAM? Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High Speed Scenarios</title>
+      <link>https://supitalp.github.io/research/publication/ultimate_slam/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/ultimate_slam/</guid>
       <description></description>
     </item>
     

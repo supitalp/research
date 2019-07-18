@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Henri Rebecq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
+    <copyright>&amp;copy; 2019 Henri Rebecq</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://supitalp.github.io/research/home/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +18,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/home/about/</guid>
-      <description>Biography I am a PhD student at the Robotics and Perception Group directed by Davide Scaramuzza, at University of Zürich.
-I am specifically interested in event-based vision &amp;mdash; using event cameras, such as the Dynamic Vision Sensor (DVS).
-These cameras are novel, bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely:
- a very high dynamic range no motion blur a latency in the order of microseconds.</description>
+      <description>Biography I am a PhD student at the Robotics and Perception Group directed by Davide Scaramuzza, at ETH Zürich / University of Zürich.
+I work on event cameras, which are novel, bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely a very high dynamic range, no motion blur, and very low latency (in the order of microseconds).</description>
     </item>
     
     <item>
@@ -30,24 +28,6 @@ These cameras are novel, bio-inspired vision sensors that output pixel-level bri
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Publications</title>
-      <link>https://supitalp.github.io/research/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://supitalp.github.io/research/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/home/posts/</guid>
       <description></description>
     </item>
     

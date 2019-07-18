@@ -52,11 +52,11 @@
   <link rel="icon" type="image/png" href="/research/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/research/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://supitalp.github.io/research/publication/contrast_max_cvpr/">
+  <link rel="canonical" href="https://supitalp.github.io/research/publication/e2vid_pami/">
 
   
 
-  <title>A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation | Henri Rebecq</title>
+  <title>High Speed and High Dynamic Range Video with an Event Camera | Henri Rebecq</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -142,17 +142,17 @@
 
   
 <div class="article-header">
-  <img src="/research/img/banners/contrast_max_banner.png" class="article-banner" itemprop="image">
+  <img src="/research/img/banners/e2vid_pami.jpg" class="article-banner" itemprop="image">
   
 </div>
 
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation</h1>
+    <h1 itemprop="name">High Speed and High Dynamic Range Video with an Event Camera</h1>
     <span class="pub-authors" itemprop="author">
       
-      Guillermo Gallego, Henri Rebecq, Davide Scaramuzza
+      Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza
       
     </span>
     <span class="pull-right">
@@ -167,7 +167,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">We present a unifying framework to solve several computer vision problems with event cameras: motion, depth and optical flow estimation. The main idea of our framework is to find the point trajectories on the image plane that are best aligned with the event data by maximizing an objective function: the contrast of an image of warped events. Our method implicitly handles data association between the events, and therefore, does not rely on additional appearance information about the scene. The proposed method is not only simple, but more importantly, it is, to the best of our knowledge, the first method that can be successfully applied to such a diverse set of important vision tasks with event cameras.</p>
+  <p class="pub-abstract" itemprop="text">Event cameras are novel sensors that report brightness changes in the form of a stream of asynchronous events instead of intensity frames. They offer significant advantages with respect to conventional cameras: high temporal resolution, high dynamic range, and no motion blur. In this work we propose to learn to reconstruct intensity images from event streams directly from data instead of relying on any hand-crafted priors. We propose a novel recurrent network to reconstruct videos from a stream of events, and train it on a large amount of simulated event data. We show that the network is able to synthesize high framerate videos (&gt; 5,000 frames per second) of high-speed phenomena (e.g. a bullet hitting an object) and is able to provide high dynamic range reconstructions in challenging lighting conditions.</p>
 
   
 
@@ -176,7 +176,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>IEEE Conference on Computer Vision and Pattern Recognition.</em></div>
+        <div class="col-xs-12 col-sm-9">In <em>Submitted to T-PAMI.</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -189,7 +189,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          April, 2018
+          June, 2019
         </div>
       </div>
     </div>
@@ -209,16 +209,20 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://rpg.ifi.uzh.ch/docs/CVPR18_Gallego.pdf">
+<a class="btn btn-primary btn-outline" href="http://rpg.ifi.uzh.ch/docs/arXiv19_Rebecq.pdf">
   PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://youtu.be/KFMZFhi-9Aw">
+<a class="btn btn-primary btn-outline" href="https://youtu.be/eomALySSGVU">
   Video
 </a>
 
+
+<a class="btn btn-primary btn-outline" href="https://github.com/uzh-rpg/rpg_e2vid">
+  Code
+</a>
 
 
 
@@ -242,13 +246,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://supitalp.github.io/research/publication/emvs_ijcv/"><span
-      aria-hidden="true">&larr;</span> EMVS: Event-based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time</a></li>
+    <li class="previous"><a href="https://supitalp.github.io/research/publication/ced_cvprw/"><span
+      aria-hidden="true">&larr;</span> CED: Color Event Camera Dataset</a></li>
     
 
-    
-    <li class="next"><a href="https://supitalp.github.io/research/publication/stereo_eccv18/">Semi-Dense 3D Reconstruction with a Stereo Event Camera <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

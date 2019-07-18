@@ -6,9 +6,36 @@
     <description>Recent content in Henri Rebecq on Henri Rebecq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Henri Rebecq</copyright>
+    <copyright>&amp;copy; 2019 Henri Rebecq</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/research/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>High Speed and High Dynamic Range Video with an Event Camera</title>
+      <link>https://supitalp.github.io/research/publication/e2vid_pami/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/e2vid_pami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CED: Color Event Camera Dataset</title>
+      <link>https://supitalp.github.io/research/publication/ced_cvprw/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/ced_cvprw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events-to-Video: Bringing Modern Computer Vision to Event Cameras</title>
+      <link>https://supitalp.github.io/research/publication/e2vid_cvpr/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/e2vid_cvpr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Are We Ready for Autonomous Drone Racing? The UZH-FPV Drone Racing Dataset</title>
@@ -56,34 +83,12 @@
     </item>
     
     <item>
-      <title>New paper accepted at CVPR&#39;18!</title>
-      <link>https://supitalp.github.io/research/post/new-paper-cvpr18/</link>
-      <pubDate>Wed, 18 Apr 2018 08:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/new-paper-cvpr18/</guid>
-      <description>&lt;p&gt;Our paper  &lt;a href=&#34;https://supitalp.github.io/research/publication/contrast_max_cvpr/&#34; target=&#34;_blank&#34;&gt;A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation&lt;/a&gt; (together with Guillermo Gallego and Davide Scaramuzza) was accepted for &lt;em&gt;spotlight presentation&lt;/em&gt; at CVPR&amp;rsquo;18!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation</title>
       <link>https://supitalp.github.io/research/publication/contrast_max_cvpr/</link>
       <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://supitalp.github.io/research/publication/contrast_max_cvpr/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My paper on Event-based Multi-View Stereo accepted at IJCV!</title>
-      <link>https://supitalp.github.io/research/post/new-paper-ijcv17/</link>
-      <pubDate>Thu, 09 Nov 2017 10:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/new-paper-ijcv17/</guid>
-      <description>&lt;p&gt;My paper &lt;a href=&#34;https://supitalp.github.io/research/publication/emvs_ijcv/&#34; target=&#34;_blank&#34;&gt;EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time&lt;/a&gt; about semi-dense 3D reconstruction with an event camera has been accepted to the &lt;em&gt;International Journal of Computer Vision&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;This work is the first to show that event cameras can be used to provide accurate, semi-dense 3D maps of a given environment, without explicitly trying to solve data association. You can watch the video &lt;a href=&#34;https://youtu.be/EFpZcpd9XJ0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -105,43 +110,6 @@
     </item>
     
     <item>
-      <title>First ever closed-loop autonomous flight with an event camera!</title>
-      <link>https://supitalp.github.io/research/post/hybrid-evio-event-flight/</link>
-      <pubDate>Wed, 20 Sep 2017 10:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/hybrid-evio-event-flight/</guid>
-      <description>&lt;p&gt;I am happy to announce today that my team achieved the first ever closed-loop autonomous flight using an event camera for state estimation! Watch the video &lt;a href=&#34;https://youtu.be/jIvJuWdmemE&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;This achievement is the product of several years of research, and I am very proud of the result. Thanks to the event camera, out quadrotor can &amp;ldquo;see&amp;rdquo; in high-speed, even in dark environments.&lt;/p&gt;
-
-&lt;p&gt;The algorithm running onboard the quadrotor is largely based on my recent paper: &lt;a href=&#34;https://supitalp.github.io/research/publication/zevio/&#34; target=&#34;_blank&#34;&gt;Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization&lt;/a&gt;, which we extended to use standard frames as an additional sensing modality in a following paper: &lt;a href=&#34;https://supitalp.github.io/research/publication/hybrid_evio_event_flight/&#34; target=&#34;_blank&#34;&gt;Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors&lt;/a&gt;. The resulting pipeline is able to work as well as state of the art visual-inertial odometry pipelines in normal conditions (good lighting, motions with moderate-speed) by exploiting the standard images, and can seamlessly use the event camera in more challenging situations (dark / HDR scenes, high-speed motions).&lt;/p&gt;
-
-&lt;p&gt;Expect to see more soon!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New paper accepted at BMVC17!</title>
-      <link>https://supitalp.github.io/research/post/new-paper-zevio/</link>
-      <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/post/new-paper-zevio/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/zevio/&#34; target=&#34;_blank&#34;&gt;Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization&lt;/a&gt; about visual-inertial odometry using an event camera has been accepted at BMVC&amp;rsquo;17 for oral presentation (acceptance rate: 5.6 %)!&lt;/p&gt;
-
-&lt;p&gt;You can watch the video &lt;a href=&#34;https://youtu.be/F3OFzsaPtvI&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors</title>
-      <link>https://supitalp.github.io/research/publication/hybrid_evio_event_flight/</link>
-      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://supitalp.github.io/research/publication/hybrid_evio_event_flight/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization</title>
       <link>https://supitalp.github.io/research/publication/zevio/</link>
       <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
@@ -151,14 +119,30 @@
     </item>
     
     <item>
-      <title>New paper accepted at RA-L and ICRA!</title>
-      <link>https://supitalp.github.io/research/post/new-paper-evo/</link>
-      <pubDate>Sun, 15 Jan 2017 12:00:00 +0000</pubDate>
+      <title>Ultimate SLAM? Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High Speed Scenarios</title>
+      <link>https://supitalp.github.io/research/publication/ultimate_slam/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://supitalp.github.io/research/post/new-paper-evo/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://supitalp.github.io/research/publication/evo/&#34; target=&#34;_blank&#34;&gt;EVO: A Geometric Approach to Event-based
-6-DOF Parallel Tracking and Mapping in Real-time&lt;/a&gt; has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&amp;rsquo;17!&lt;/p&gt;
-</description>
+      <guid>https://supitalp.github.io/research/publication/ultimate_slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EVO: A Geometric Approach to Event-based 6-DOF Parallel Tracking and Mapping in Real-time</title>
+      <link>https://supitalp.github.io/research/publication/evo/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/evo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Event-Camera Dataset and Simulator: Event-based Data for Pose Estimation, Visual Odometry, and SLAM</title>
+      <link>https://supitalp.github.io/research/publication/dvs_data_paper/</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://supitalp.github.io/research/publication/dvs_data_paper/</guid>
+      <description></description>
     </item>
     
   </channel>

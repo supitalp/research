@@ -110,18 +110,6 @@
         
 
         <li class="nav-item">
-          <a href="/research/#posts" data-target="#posts">
-            
-            <span>Posts</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
           <a href="/research/#teaching" data-target="#teaching">
             
             <span>Teaching</span>
@@ -164,7 +152,7 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
   <div class="col-xs-12 col-md-4">
     <div id="profile">
 
@@ -179,7 +167,7 @@
         
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
           <a href="https://rpg.ifi.uzh.ch" target="_blank" itemprop="url">
-            <span itemprop="name">Robotics and Perception Group, University of Zürich</span>
+            <span itemprop="name">ETH Zürich / University of Zürich</span>
           </a>
         </h3>
         
@@ -191,14 +179,14 @@
         
         
         <li>
-          <a itemprop="sameAs" href="mailto:rebecq@ifi.uzh.ch" target="_blank">
+          <a itemprop="sameAs" href="mailto:h.rebecq@gmail.com" target="_blank">
             <i class="fa fa-envelope big-icon"></i>
           </a>
         </li>
         
         
         <li>
-          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=zveWLBkAAAAJ" target="_blank">
+          <a itemprop="sameAs" href="https://scholar.google.com/citations?user=zveWLBkAAAAJ" target="_blank">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
@@ -234,23 +222,11 @@
 
 <h1 id="biography">Biography</h1>
 
-<p>I am a PhD student at the <a href="http://rpg.ifi.uzh.ch" target="_blank">Robotics and Perception Group</a> directed by <a href="http://rpg.ifi.uzh.ch/people_scaramuzza.html" target="_blank">Davide Scaramuzza</a>, at University of Zürich.</p>
+<p>I am a PhD student at the <a href="http://rpg.ifi.uzh.ch" target="_blank">Robotics and Perception Group</a> directed by <a href="http://rpg.ifi.uzh.ch/people_scaramuzza.html" target="_blank">Davide Scaramuzza</a>, at ETH Zürich / University of Zürich.</p>
 
-<p>I am specifically interested in <strong>event-based vision</strong> &mdash; using event cameras, such as the <a href="http://inilabs.com/products/dynamic-vision-sensors/" target="_blank">Dynamic Vision Sensor (DVS)</a>.</p>
+<p>I work on <a href="http://rpg.ifi.uzh.ch/docs/scaramuzza/2019.07.11_Scaramuzza_Event_Cameras_Tutorial.pdf" target="_blank">event cameras</a>, which are novel, bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely a very <strong>high dynamic range</strong>, <strong>no motion blur</strong>, and very <strong>low latency</strong> (in the order of microseconds).</p>
 
-<p>These cameras are novel, bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely:</p>
-
-<ul>
-<li>a very high dynamic range</li>
-<li>no motion blur</li>
-<li>a latency in the order of microseconds.</li>
-</ul>
-
-<p>However, because their output is composed of a sequence of <em>asynchronous events</em> rather than actual intensity images, traditional vision algorithms cannot be applied.</p>
-
-<p>The goal of my research is to design novel algorithms that leverage the outstanding properties of event cameras to solve fundamental vision tasks for robotics &mdash; in particular <strong>SLAM</strong>, <strong>visual (inertial) odometry</strong> and <strong>mapping</strong> (3D reconstruction).</p>
-
-<p>In the past, I have been working on <a href="https://supitalp.github.io/research/publication/benefit-large-fov-vo/" target="_blank">omnidirectional vision</a>, and I have also worked as a research engineer at <a href="http://www.video-stitch.com/" target="_blank">VideoStitch</a>.</p>
+<p>My goal is to design novel algorithms that leverage the outstanding properties of event cameras to solve fundamental vision tasks, such as <a href="https://youtu.be/eomALySSGVU" target="_blank">high speed video</a>, <a href="https://youtu.be/jIvJuWdmemE" target="_blank">SLAM</a>, <a href="https://youtu.be/F3OFzsaPtvI" target="_blank">visual odometry</a> or <a href="https://www.youtube.com/watch?v=EUX3Tfx0KKE" target="_blank">3D reconstruction</a>.</p>
 
 <p>I have graduated from <a href="https://www.telecom-paristech.fr/" target="_blank">Télécom ParisTech</a>, and I have studied <strong>machine learning</strong> and <strong>computer vision</strong> through the <a href="http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/" target="_blank">MVA M.Sc.</a> at ENS Cachan.</p>
 
@@ -262,13 +238,15 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Event-based Vision</li>
+          <li>Event cameras</li>
+          
+          <li>Machine Learning</li>
           
           <li>SLAM</li>
           
-          <li>Visual Odometry</li>
+          <li>3D Reconstruction</li>
           
-          <li>Visual Inertial Odometry</li>
+          <li>Visual Odometry</li>
           
         </ul>
       </div>
@@ -331,6 +309,218 @@
     
 
     
+    
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://supitalp.github.io/research/publication/e2vid_pami/">
+        <img src="/research/img/banners/e2vid_pami.jpg" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://supitalp.github.io/research/publication/e2vid_pami/" itemprop="url">High Speed and High Dynamic Range Video with an Event Camera</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        Event cameras are novel sensors that report brightness changes in the form of a stream of asynchronous events instead of intensity frames. They offer significant advantages with respect to conventional cameras: high temporal resolution, high dynamic range, and no motion blur. In this work we propose to learn to reconstruct intensity images from event streams directly from data instead of relying on any hand-crafted priors. We propose a novel recurrent network to reconstruct videos from a stream of events, and train it on a large amount of simulated event data. We show that the network is able to synthesize high framerate videos (&gt; 5,000 frames per second) of high-speed phenomena (e.g. a bullet hitting an object) and is able to provide high dynamic range reconstructions in challenging lighting conditions.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>arXiv&rsquo;19 (T-PAMI submission)</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/e2vid_pami/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/arXiv19_Rebecq.pdf">
+  PDF
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/eomALySSGVU">
+  Video
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/uzh-rpg/rpg_e2vid">
+  Code
+</a>
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://supitalp.github.io/research/publication/ced_cvprw/">
+        <img src="/research/img/banners/ced_cvprw.png" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://supitalp.github.io/research/publication/ced_cvprw/" itemprop="url">CED: Color Event Camera Dataset</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        Until recently, event cameras have been limited to outputting events in the intensity channel, however, recent advances have resulted in the development of color event cameras, such as the Color DAVIS346. In this work, we present and release the first Color Event Camera Dataset (CED), containing 50 minutes of footage with both color frames and events. CED features a wide variety of indoor and outdoor scenes, which we hope will help drive forward event-based vision research. We also present an extension of the event camera simulator ESIM that enables simulation of color events. Finally, we present an evaluation of three state-of-the-art image reconstruction methods that can be used to convert the Color DAVIS346 into a continuous-time, HDR, color video camera to visualise the event stream, and for use in downstream vision applications.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Cedric Scheerlinck, Henri Rebecq, Timo Stoffregen, Nick Barnes, Robert Mahony, Davide Scaramuzza
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>CVPR-W&rsquo;19</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/ced_cvprw/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/CVPRW19_Scheerlinck.pdf">
+  PDF
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/R9BiRN7f7uY">
+  Video
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/CED.html">
+  Dataset
+</a>
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://supitalp.github.io/research/publication/e2vid_cvpr/">
+        <img src="/research/img/banners/e2vid_cvpr.png" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://supitalp.github.io/research/publication/e2vid_cvpr/" itemprop="url">Events-to-Video: Bringing Modern Computer Vision to Event Cameras</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        The output of event cameras is fundamentally different from conventional cameras, and it is commonly accepted that they require the development of specialized algorithms to accommodate the particular nature of events.  In this work, we take a different view and propose to apply existing, mature computer vision techniques to videos reconstructed from event data. We propose a novel recurrent network to reconstruct videos from a stream of events, and train it on a large amount of simulated event data. Our experiments show that our approach surpasses state-of-the-art reconstruction methods by a large margin (&gt;20%) in terms of image quality.  We further apply off-the-shelf computer vision algorithms to videos reconstructed from event data on tasks such as object classification and visual-inertial odometry, and show that this strategy consistently outperforms algorithms that were specifically designed for event data.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>CVPR&rsquo;19</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/e2vid_cvpr/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/CVPR19_Rebecq.pdf">
+  PDF
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/IdYrC4cUO0I">
+  Video
+</a>
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
     
     <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
   <div class="row">
@@ -894,74 +1084,6 @@
     
 
     <div class="col-md-12">
-      <a href="https://supitalp.github.io/research/publication/hybrid_evio_event_flight/">
-        <img src="/research/img/banners/hybrid_evio_event_flight.png" class="pub-banner" itemprop="image">
-      </a>
-    </div>
-    <div class="col-md-12">
-
-    
-
-      <h3 class="article-title" itemprop="name">
-        <a href="https://supitalp.github.io/research/publication/hybrid_evio_event_flight/" itemprop="url">Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors</a>
-      </h3>
-
-      <div class="pub-abstract" itemprop="text">
-        
-        In this paper, we present the first state estimation pipeline that leverages the complementary advantages of a standard camera and an event camera by fusing, in a tightly-coupled manner events, standard frames, and inertial measurements. Furthermore, we use our pipeline to demonstrate - to the best of our knowledge - the first autonomous quadrotor flight using an event camera for state estimation, unlocking flight scenarios that were not reachable with traditional visual-inertial odometry, such as low-light environments and high-dynamic range scenes.
-        
-      </div>
-
-      <div class="pub-authors" itemprop="author">
-        
-        Toni Rosinol Vidal, Henri Rebecq, Timo Horstschaefer, Davide Scaramuzza
-        
-      </div>
-
-      <div class="pub-publication">
-        
-        In <em>arXiv</em>
-        
-      </div>
-
-      <div class="pub-links">
-        
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/hybrid_evio_event_flight/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1709.06310">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/jIvJuWdmemE">
-  Video
-</a>
-
-
-
-
-
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    
-
-    <div class="col-md-12">
       <a href="https://supitalp.github.io/research/publication/zevio/">
         <img src="/research/img/banners/zevio.png" class="pub-banner" itemprop="image">
       </a>
@@ -1009,6 +1131,74 @@
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/F3OFzsaPtvI">
+  Video
+</a>
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://supitalp.github.io/research/publication/ultimate_slam/">
+        <img src="/research/img/banners/ultimate_slam.png" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://supitalp.github.io/research/publication/ultimate_slam/" itemprop="url">Ultimate SLAM? Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High Speed Scenarios</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        In this paper, we present the first state estimation pipeline that leverages the complementary advantages of a standard camera and an event camera by fusing, in a tightly-coupled manner events, standard frames, and inertial measurements. Furthermore, we use our pipeline to demonstrate the first autonomous quadrotor flight using an event camera for state estimation, unlocking flight scenarios that were not reachable with traditional visual-inertial odometry, such as low-light environments and high-dynamic range scenes.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Antoni Rosinol Vidal, Henri Rebecq, Timo Horstschaefer, Davide Scaramuzza
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>RA-L&rsquo;18</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/ultimate_slam/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/RAL18_VidalRebecq.pdf">
+  PDF
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/jIvJuWdmemE">
   Video
 </a>
 
@@ -1314,700 +1504,6 @@
 
   
   
-  <section id="publications" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent Publications</h1>
-    
-    
-    <p class="view-all">
-      <a href="/research/publication/">
-        More Publications
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-    <ul class="fa-ul">
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Are We Ready for Autonomous Drone Racing? The UZH-FPV Drone Racing Dataset</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/fpv_icra19/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/ICRA19_Delmerico.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/G5w4ZcEzvoo">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Event-based, Direct Camera Tracking from a Photometric 3D Map using Nonlinear Optimization</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/photometric_tracking_icra19/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/ICRA19_Bryner.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/ISgXVgCR-lE">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">ESIM: an Open Event Camera Simulator</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/esim_corl18/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/CORL18_Rebecq.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/ytKOIX_2clo">
-  Video
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/uzh-rpg/rpg_esim">
-  Code
-</a>
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Asynchronous, Photometric Feature Tracking using Events and Frames</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/malk_eccv18/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/ECCV18_Gehrig.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/A7UfeUnG6c4">
-  Video
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/uzh-rpg/rpg_feature_tracking_analysis">
-  Code
-</a>
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Semi-Dense 3D Reconstruction with a Stereo Event Camera</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/stereo_eccv18/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/ECCV18_Zhou.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/Qrnpj2FD1e4">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/contrast_max_cvpr/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/CVPR18_Gallego.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/KFMZFhi-9Aw">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">EMVS: Event-based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/emvs_ijcv/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/EFpZcpd9XJ0">
-  Video
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/uzh-rpg/rpg_emvs">
-  Code
-</a>
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Event-based, 6-DOF Camera Tracking from Photometric Depth Maps</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/eb_6dof_tracking/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=iZZ77F-hwzs">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/hybrid_evio_event_flight/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1709.06310">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/jIvJuWdmemE">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://supitalp.github.io/research/publication/zevio/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://rpg.ifi.uzh.ch/docs/BMVC17_Rebecq.pdf">
-  PDF
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/F3OFzsaPtvI">
-  Video
-</a>
-
-
-
-
-
-</p>
-</li>
-
-      
-    </ul>
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  <section id="posts" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-
-    <h1>Recent Posts</h1>
-    
-    
-    <p class="view-all">
-      <a href="/research/post/">
-        More Posts
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-    
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-    
-
-    
-      
-        
-        
-
-
-<div class="article-list-item" itemscope itemprop="blogPost">
-  
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="https://supitalp.github.io/research/post/new-paper-cvpr18/" itemprop="url">New paper accepted at CVPR&#39;18!</a>
-  </h3>
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2018-04-18 08:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Apr 18, 2018
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/research/tags/cvpr">cvpr</a
-    >, 
-    
-    <a href="/research/tags/event-based-vision">event-based vision</a
-    >, 
-    
-    <a href="/research/tags/contrast-maximization">contrast maximization</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Our paper  <a href="https://supitalp.github.io/research/publication/contrast_max_cvpr/" target="_blank">A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation</a> (together with Guillermo Gallego and Davide Scaramuzza) was accepted for <em>spotlight presentation</em> at CVPR&rsquo;18!</p>
-
-    
-  </div>
-  <p class="read-more">
-    <a href="https://supitalp.github.io/research/post/new-paper-cvpr18/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-      
-        
-        
-
-
-<div class="article-list-item" itemscope itemprop="blogPost">
-  
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="https://supitalp.github.io/research/post/new-paper-ijcv17/" itemprop="url">My paper on Event-based Multi-View Stereo accepted at IJCV!</a>
-  </h3>
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2017-11-09 10:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Thu, Nov 9, 2017
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/research/tags/ijcv">ijcv</a
-    >, 
-    
-    <a href="/research/tags/3d-reconstruction">3D reconstruction</a
-    >, 
-    
-    <a href="/research/tags/event-based-vision">event-based vision</a
-    >, 
-    
-    <a href="/research/tags/real-time">real-time</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>My paper <a href="https://supitalp.github.io/research/publication/emvs_ijcv/" target="_blank">EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time</a> about semi-dense 3D reconstruction with an event camera has been accepted to the <em>International Journal of Computer Vision</em>!</p>
-
-<p>This work is the first to show that event cameras can be used to provide accurate, semi-dense 3D maps of a given environment, without explicitly trying to solve data association. You can watch the video <a href="https://youtu.be/EFpZcpd9XJ0" target="_blank">here</a>!</p>
-
-    
-  </div>
-  <p class="read-more">
-    <a href="https://supitalp.github.io/research/post/new-paper-ijcv17/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-      
-        
-        
-
-
-<div class="article-list-item" itemscope itemprop="blogPost">
-  
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="https://supitalp.github.io/research/post/hybrid-evio-event-flight/" itemprop="url">First ever closed-loop autonomous flight with an event camera!</a>
-  </h3>
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2017-09-20 10:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Sep 20, 2017
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/research/tags/visual-inertial-odometry">visual-inertial odometry</a
-    >, 
-    
-    <a href="/research/tags/event-based-vision">event-based vision</a
-    >, 
-    
-    <a href="/research/tags/quadrotor">quadrotor</a
-    >, 
-    
-    <a href="/research/tags/drone">drone</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    I am happy to announce today that my team achieved the first ever closed-loop autonomous flight using an event camera for state estimation! Watch the video here!
-This achievement is the product of several years of research, and I am very proud of the result. Thanks to the event camera, out quadrotor can &ldquo;see&rdquo; in high-speed, even in dark environments.
-The algorithm running onboard the quadrotor is largely based on my recent paper: Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization, which we extended to use standard frames as an additional sensing modality in a following paper: Hybrid, Frame and Event based Visual Inertial Odometry for Robust, Autonomous Navigation of Quadrotors.
-    
-  </div>
-  <p class="read-more">
-    <a href="https://supitalp.github.io/research/post/hybrid-evio-event-flight/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-      
-        
-        
-
-
-<div class="article-list-item" itemscope itemprop="blogPost">
-  
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="https://supitalp.github.io/research/post/new-paper-zevio/" itemprop="url">New paper accepted at BMVC17!</a>
-  </h3>
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2017-09-12 10:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Tue, Sep 12, 2017
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/research/tags/visual-inertial-odometry">visual-inertial odometry</a
-    >, 
-    
-    <a href="/research/tags/event-based-vision">event-based vision</a
-    >, 
-    
-    <a href="/research/tags/real-time">real-time</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Our paper <a href="https://supitalp.github.io/research/publication/zevio/" target="_blank">Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization</a> about visual-inertial odometry using an event camera has been accepted at BMVC&rsquo;17 for oral presentation (acceptance rate: 5.6 %)!</p>
-
-<p>You can watch the video <a href="https://youtu.be/F3OFzsaPtvI" target="_blank">here</a>!</p>
-
-    
-  </div>
-  <p class="read-more">
-    <a href="https://supitalp.github.io/research/post/new-paper-zevio/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-      
-        
-        
-
-
-<div class="article-list-item" itemscope itemprop="blogPost">
-  
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="https://supitalp.github.io/research/post/new-paper-evo/" itemprop="url">New paper accepted at RA-L and ICRA!</a>
-  </h3>
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2017-01-15 12:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sun, Jan 15, 2017
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/research/tags/visual-odometry">visual odometry</a
-    >, 
-    
-    <a href="/research/tags/event-based-vision">event-based vision</a
-    >, 
-    
-    <a href="/research/tags/slam">slam</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Our paper <a href="https://supitalp.github.io/research/publication/evo/" target="_blank">EVO: A Geometric Approach to Event-based
-6-DOF Parallel Tracking and Mapping in Real-time</a> has been accepted for publication in the Robotics and Automation Letters (RA-L), and for presentation at ICRA&rsquo;17!</p>
-
-    
-  </div>
-  <p class="read-more">
-    <a href="https://supitalp.github.io/research/post/new-paper-evo/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-      
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
   <section id="teaching" class="home-section">
     <div class="container">
       
@@ -2051,17 +1547,12 @@ The algorithm running onboard the quadrotor is largely based on my recent paper:
       
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:rebecq@ifi.uzh.ch">rebecq@ifi.uzh.ch</a></span>
+        <span id="person-email" itemprop="email"><a href="mailto:h.rebecq@gmail.com">h.rebecq@gmail.com</a></span>
       </li>
       
 
       
 
-      
-      <li>
-        <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:&#43;41%2044%20635%2043%2087">&#43;41 44 635 43 87</a></span>
-      </li>
       
 
       
@@ -2091,7 +1582,7 @@ The algorithm running onboard the quadrotor is largely based on my recent paper:
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2016 Henri Rebecq &middot; 
+      &copy; 2019 Henri Rebecq &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
